@@ -13,4 +13,4 @@ if result < 10:
 elif result > 10:
     print("%.3f초가 걸렸습니다. %.3f초 늦게 눌렀네요." %(result, result-10))
 else:
-    print("%.3f초가 걸렸습니다." %(result))
+    print("%.3f초가 걸렸습니다. 정확히 10초입니다!" %(result))

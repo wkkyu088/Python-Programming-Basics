@@ -1,5 +1,0 @@
-17:05:56 Hello
-17:05:59 Good_Morning
-17:06:03 Good_Afternoon
-17:06:06 Good_Evening
-17:06:10 How_are_you?

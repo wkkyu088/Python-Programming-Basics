@@ -1,0 +1,5 @@
+18:49:18 Hello
+18:49:27 Good_Morning
+18:49:30 Good_Afternoon
+18:49:34 Good_Evening
+18:49:37 How_are_you?

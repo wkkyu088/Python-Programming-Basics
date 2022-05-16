@@ -1,4 +1,4 @@
-import datetime
+import time
 
 print("** 파일저장 프로그램 **")
 
@@ -10,8 +10,8 @@ f = open(fileName, "w")
 for i in range(fileLine):
     print(i+1, end=": ")
     line = input()
-    d = datetime.datetime.now()
-    stamp = "%02d:%02d:%02d " %(d.hour, d.minute, d.second)
+    t = time.localtime()
+    stamp = "%02d:%02d:%02d " %(t.tm_hour, t.tm_min, t.tm_sec)
     f.write(stamp + line.replace(" ", "_") + "\n")
 
 f.close()

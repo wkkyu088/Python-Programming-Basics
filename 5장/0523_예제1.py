@@ -1,9 +1,8 @@
 def get_Max(x, y):
-    # if x > y: 
-    #     return x
-    # elif x < y: 
-    #     return y
-    return max(x, y)
+    if x > y: 
+        return x
+    else: 
+        return y
 
 num1 = float(input("첫번째 실수? "))
 num2 = float(input("두번째 실수? "))

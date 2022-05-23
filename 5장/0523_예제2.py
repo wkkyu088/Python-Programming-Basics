@@ -1,9 +1,8 @@
 def is_prime(x):
-    flag = True
     for i in range(2, x):
         if x % i == 0:
-            flag = False
-    return flag
+            return False
+    return True
             
 
 a = int(input("Number? "))
